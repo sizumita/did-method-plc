@@ -20,6 +20,10 @@
     pino "^8.6.1"
     zod "^3.14.2"
 
+"@atproto/common@link:atproto/packages/common":
+  version "0.0.0"
+  uid ""
+
 "@atproto/crypto@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@atproto/crypto/-/crypto-0.1.0.tgz#bc73a479f9dbe06fa025301c182d7f7ab01bc568"
@@ -30,6 +34,10 @@
     multiformats "^9.6.4"
     one-webcrypto "^1.0.3"
     uint8arrays "3.0.0"
+
+"@atproto/crypto@link:atproto/packages/crypto":
+  version "0.0.0"
+  uid ""
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.18.6":
   version "7.18.6"
@@ -3515,7 +3523,7 @@ dot-prop@^6.0.1:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@^16.0.3:
+dotenv@^16.0.0, dotenv@^16.0.3:
   version "16.0.3"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
